@@ -497,14 +497,30 @@ footer ul{
 }
 .col-sm-12 ul{
     padding-left: 0;
+    font-size: 16px!important;
 }
 .col-sm-12  ul li a{
     color: white!important;
 }
 footer .social{
     color:white!important;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
 
+
+/*page contact*/
+.main--form p{
+    font-size: 2rem!important;
+    color: #fff!important;
+}
+label, .contact--mail{
+    font-size: 1.5rem;
+}
+label, .contact--mail span{
+    font-weight: bold!important;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -554,7 +570,7 @@ footer .social{
         border-radius: 0.5rem;
         transition: border 0.5s ease-in-out;
     }
-    .nav > li a:hover {
+    .nav > li a:hover{
         border: 1px solid #F3976C;
         padding:5px 15px!important ;
     }
@@ -1008,11 +1024,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
