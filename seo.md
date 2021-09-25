@@ -25,4 +25,3 @@
 12- les articles ne sont pas pertinents
 
 13- voir pour mettre à jour bootstrap et jquery
-
