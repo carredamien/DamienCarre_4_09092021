@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+   
 }
 
 a,
@@ -362,6 +363,149 @@ a:hover {
     z-index: 2;
 }
 
+/*--------Modifications suite audit seo Carré Damien--------------------*/
+header .container{
+    padding: 10px 0!important
+}
+.navbar-brand{
+    display: flex;
+}
+.navbar-brand h1{
+    font-size: 2.4rem;
+    font-family: 'et-line', serif;
+    line-height: 0.4;
+}
+.navbar-brand img{
+    height: 50px;
+}.navbar-brand {
+    font-family: 'et-line', serif;
+}
+
+
+.nav > li{
+    margin: 0 0.5rem        ;
+}
+
+
+.logo{ 
+    width:100px;
+}
+
+.banner--content{
+    margin-top: 3rem;
+    /* color: #D4AC48!important; */
+    color: orange!important;
+    font-size: 2.4rem;
+}
+strong{
+    font-weight: normal;
+}
+
+aside p{
+    font-size: 15px; /*augmentation de la font-size de 11px à 15px*/
+}
+.blockquote{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-style:italic;
+    color:#4d4d4d;
+    letter-spacing: 0.05rem;
+    border:none;
+    margin-top: 5rem;
+    margin-bottom: 0!important;
+    padding: 0!important;
+}
+cite{
+    font-style: normal;
+    color:#4d4d4d;
+    font-size: 1.4rem;
+}
+.presentation h2 .presentation p{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.presentation h2{ 
+color:orange!important;
+font-size: 20px;
+}
+.presentation p{ /*modification de la font size du paragraphe*/
+    font-size: 15px;
+}
+/*PORTFOLIO*/
+
+.portfolio h3{
+    font-size: 17px;
+}
+.portfolio p{
+    font-size: 17px;
+    line-height: 1.2;
+}
+.portfolio p:first-child{
+    font-size: 2.19rem;
+    color:#4d4d4d;
+}
+.portfolio .col-sm-6{
+    margin-top: 3rem;
+}
+.portfolio-thumb {
+    margin-bottom: 0!important;
+}
+.row{
+    margin:0;
+}
+ .tight-width-whitespace {
+    margin: auto 1rem auto 1rem!important;
+}
+.black-background {
+    background-color: rgb(56, 56, 56)!important;
+    padding: 40px 5px 40px 5px!important;
+    margin: auto 2rem!important;
+    font-size: 1.8rem;
+}
+
+/*CTA*/
+.cta .tc-white{
+    color:rgb(255,166,0)!important;
+    font-size: 25px;
+}
+.cta .btn-atomic-tangerine {
+    background: rgba(56,56,56,0.92)!important;
+    font-size: 1.8rem;
+    color:rgba(255, 166, 0, 0.9)!important;
+    border:none!important;
+}
+.cta .btn-atomic-tangerine:hover {
+    color:white!important;
+    background: rgba(56, 56, 56, 1)!important;
+}
+.texture-paper::before{
+    background: transparent;
+}
+
+footer .fa{
+    color: white!important;
+}
+footer .row h4{
+    color: white!important;
+}
+.bgc-atomic-tangerine{
+    background-color: rgb(56,56,56)!important;
+}
+/*FOOTER*/
+footer ul{
+    list-style: none;
+}
+.col-sm-12 ul{
+    padding-left: 0;
+}
+.col-sm-12  ul li a{
+    color: white!important;
+}
+footer .social{
+    color:white!important;
+}
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -401,6 +545,48 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+/* Modifications suite audit seo par Carré Damien */
+
+/*navbar*/
+    .nav > li a{
+        border: 1px solid transparent;
+        padding:5px 15px!important ;
+        border-radius: 0.5rem;
+        transition: border 0.5s ease-in-out;
+    }
+    .nav > li a:hover {
+        border: 1px solid #F3976C;
+        padding:5px 15px!important ;
+    }
+
+    aside p{
+        font-size: 17px; /*augmentation de la font-size de 11px à 17px*/
+    }
+    .blockquote{
+        font-size: 1.8rem;
+    }
+    .presentation h2{ 
+        font-size: 20px;
+        }
+    .tight-width-whitespace {
+    margin: auto auto auto auto!important;
+    }
+    .presentation > .container{
+        margin: auto auto auto auto!important;
+    }
+    /* .black-background p{
+        font-size: 1.8rem;
+    }*/
+    .portfolio p:first-child{
+    font-size: 2.5rem;
+    }
+
+   /* .portfolio h3{
+        font-size: 18px;
+    }
+    .portfolio p{
+        font-size: 17px;
+    } */
 }
 
 .nav > li > .dropdown a {
@@ -516,13 +702,16 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1; 
     z-index: 500;
     transition: all .3s ease-in-out;
+    padding:6px;
 }
 
 .scrollToTop span {
-    margin-top: 6px;
+    line-height: 20px;
+    color: white;
+    font-size: 20px;
 }
 
 .showScrollTop {
@@ -681,7 +870,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 650px;
     margin: auto auto auto auto;
 }
 
@@ -717,7 +906,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 900px;   /* augmentation largeur de 800px à 900px */
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -753,7 +942,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 1); /*opacité a 1 au lieu de 0.7*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -807,6 +996,7 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+    
 }
 
 .bg-dots-bg {
