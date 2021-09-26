@@ -380,17 +380,12 @@ header .container{
 }.navbar-brand {
     font-family: 'et-line', serif;
 }
-
-
 .nav > li{
     margin: 0 0.5rem        ;
 }
-
-
 .logo{ 
     width:100px;
 }
-
 .banner--content{
     margin-top: 3rem;
     /* color: #D4AC48!important; */
@@ -400,7 +395,6 @@ header .container{
 strong{
     font-weight: normal;
 }
-
 aside p{
     font-size: 15px; /*augmentation de la font-size de 11px à 15px*/
 }
@@ -472,7 +466,7 @@ font-size: 20px;
     background: rgba(56,56,56,0.92)!important;
     font-size: 1.8rem;
     color:rgba(255, 166, 0, 0.9)!important;
-    border:none!important;
+    border:none;
 }
 .cta .btn-atomic-tangerine:hover {
     color:white!important;
@@ -521,7 +515,11 @@ label, .contact--mail{
 label, .contact--mail span{
     font-weight: bold!important;
 }
-
+.btn-atomic-tangerine:hover {
+    background: rgb(56,56,56)!important;
+    /* color: #FFFFFF!important; */
+    color:rgba(255, 166, 0, 0.9)!important;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -984,13 +982,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: rgb(56,56,56)!important;
+    color: #c27956!important;
+    font-size: 1.6rem;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: rgba(56,56,56,1)!important;
+    color: #fff!important;
 }
 
 .ltc-white {

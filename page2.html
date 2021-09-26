@@ -1,172 +1,195 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="Vous pouvez contacter la chouette agence, agence web sur Lyon en remplissant le formulaire de contact">
+	<meta name="description"
+		content="Vous pouvez contacter la chouette agence, agence web sur Lyon en remplissant le formulaire de contact">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css"> <!-- ici j'ai réorganisé l'ordre de chargement des fichiers css -->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<!-- ici j'ai réorganisé l'ordre de chargement des fichiers css -->
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css"> 
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	
-	<script src="./js/jquery-2.1.0.js" defer></script><!-- ici j'ai modifié l'ordre de chargement des fichiers js et ajouté la balise defer -->
+
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<!-- ici j'ai modifié l'ordre de chargement des fichiers js et ajouté la balise defer -->
 	<script src="./js/bootstrap.js" defer></script>
-  <title>La chouette agence | Contact</title>
+	<title>La chouette agence | Contact</title>
 
-<!-- Analytics -->
- <!-- Il faut mettre le code de google analytics afin d'avoir des statistiques -->
-<!-- Analytics END -->
-    
+	<!-- Analytics -->
+	<!-- Il faut mettre le code de google analytics afin d'avoir des statistiques -->
+	<!-- Analytics END -->
+
 </head>
+
 <body>
-	<!-- header --><!-- ajout de la balise header pour la sémantique-->
-<header class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<!-- <div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> --><!-- suppression de la div keywords -->
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo la chouette agence" /><h1>La chouette agence</h1></a><!--modification du logo et ajout paragraphe et de l'attribut alt-->
-				<!-- <div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> --><!-- suppression de la div keywords -->
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="./index.html">Accueil</a>
-					</li>
-					<!-- <li>
-					</li> --><!-- suppression du li qui est vide -->
-					<li>
-						<a href="./page2.html">Contact</a><!-- modification du nom du lien de la navbar -->
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</header>
-<!-- header END -->
-
-
-<!-- bloc-6 -->
-<main class="main--form bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
-					Parlons web design !
-				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-				</p>
-			</div>
-		</div>
-	</div>
-</main>
-<!-- bloc-6 END -->
-
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
-					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
+	<!-- header -->
+	<!-- ajout de la balise header pour la sémantique-->
+	<header class="bloc bgc-white l-bloc " id="bloc-0">
+		<div class="container bloc-sm">
+			<nav class="navbar row">
+				<div class="navbar-header">
+					<!-- <div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
+					<!-- suppression de la div keywords -->
+					<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
+							alt="Logo la chouette agence" />
+						<h1>La chouette agence</h1>
+					</a>
+					<!--modification du logo et ajout paragraphe et de l'attribut alt-->
+					<!-- <div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
+					<!-- suppression de la div keywords -->
+					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
+						data-target=".navbar-1">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
+							class="icon-bar"></span><span class="icon-bar"></span>
 					</button>
-				</form>
+				</div>
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a href="./index.html">Accueil</a>
+						</li>
+						<!-- <li>
+					</li> -->
+						<!-- suppression du li qui est vide -->
+						<li>
+							<a href="./page2.html">Contact</a><!-- modification du nom du lien de la navbar -->
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- header END -->
+
+
+	<!-- bloc-6 -->
+	<main class="main--form bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper"
+		id="bloc-6">
+		<div class="container bloc-lg">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="text-center hero-bloc-text tc-white">
+						Parlons web design !
+					</h2>
+					<p class="text-center mg-lg tc-white tight-width-whitespace">
+						Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+						Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+					</p>
+				</div>
 			</div>
-			<div class="col-sm-6">
-				<p class="contact--mail">
-					<span>Adresse email:</span>  contact@lachouetteagence.com<br><span>Adresse postale:</span> 2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
+		</div>
+	</main>
+	<!-- bloc-6 END -->
+
+	<!-- bloc-7 -->
+	<div class="bloc bgc-white l-bloc" id="bloc-7">
+		<div class="container bloc-lg">
+			<div class="row">
+				<div class="col-sm-6">
+					<form id="form_1" novalidate success-msg="Your message has been sent."
+						fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<div class="form-group">
+							<label for="name">
+								Nom
+							</label>
+							<input id="name" class="form-control" placeholder="Doe John" required />
+						</div>
+						<div class="form-group">
+							<label for="email">
+								Adresse email
+							</label>
+							<input id="email" class="form-control" placeholder="johndoe@gmail.com"  type="email" required />
+						</div>
+						<div class="form-group">
+							<label for="who">
+								Comment nous avez-vous connu ?
+							</label>
+							<input class="form-control" type="texte"required id="who" placeholder="pub, réseau social, ..."/>
+						</div>
+						<div class="form-group">
+							<label for="message">
+								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+							</label><textarea id="message" class="form-control" rows="4" cols="50" required placeholder="Votre texte ici"></textarea>
+						</div>
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							Envoyer
+						</button>
+					</form>
+				</div>
+				<div class="col-sm-6">
+					<p class="contact--mail">
+						<span>Adresse email:</span> contact@lachouetteagence.com<br><span>Adresse postale:</span> 2 place Sathonay
+						69001 Lyon<br><span>Horaires:</span>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-7 END -->
+	<!-- bloc-7 END -->
 
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
+	<!-- ScrollToTop Button -->
+	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+	<!-- ScrollToTop Button END-->
 
 
-<!--Footer - bloc-8 -->
-<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<h3 class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
-				</h3>
-				<div class="row row-no-gutters social">
-					<ul class="col-sm-3">
-						<li class="text-center">
-							<a class="social " href="https://twitter.com/?lang=fr" title="Twitter"><i class="fa fa-twitter icon-md"></i></a>
-						</li>
-					</ul>
-					<ul class="col-sm-3">
-						<li class="text-center">
-							<a class="social" href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook icon-md"></i></a>
-						</li>
-					</ul>
-					<ul class="col-sm-3">
-						<li class="text-center">
-							<a class="social" href="https://dribbble.com/" title="Dribble"><i class="fa fa-dribbble icon-md"></i></a>
-						</li>
-					</ul>
-					<ul class="col-sm-3">
-						<li class="text-center">
-							<a class="social" href="https://www.instagram.com/?hl=fr" title="instagram"><i class="fa fa-instagram icon-md"></i></a>
-						</li>
-					</ul>
-					<!-- <div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
-				</div>
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<h4>Nos partenaires</h4>
+	<!--Footer - bloc-8 -->
+	<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<div class="container bloc-sm">
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 class="text-center white">
+						La chouette agence - Agence web basée à Lyon.<br>
+					</h3>
+					<div class="row row-no-gutters social">
+						<ul class="col-sm-3">
+							<li class="text-center">
+								<a class="social " href="https://twitter.com/?lang=fr" title="Twitter"><i
+										class="fa fa-twitter icon-md"></i></a>
+							</li>
+						</ul>
+						<ul class="col-sm-3">
+							<li class="text-center">
+								<a class="social" href="https://www.facebook.com/" title="Facebook"><i
+										class="fa fa-facebook icon-md"></i></a>
+							</li>
+						</ul>
+						<ul class="col-sm-3">
+							<li class="text-center">
+								<a class="social" href="https://dribbble.com/" title="Dribble"><i
+										class="fa fa-dribbble icon-md"></i></a>
+							</li>
+						</ul>
+						<ul class="col-sm-3">
+							<li class="text-center">
+								<a class="social" href="https://www.instagram.com/?hl=fr" title="instagram"><i
+										class="fa fa-instagram icon-md"></i></a>
+							</li>
+						</ul>
+						<!-- <div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
+					</div>
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h4>Nos partenaires</h4>
 							<ul>
 								<li"><a class="white" href="https://www.lyon.fr/">Mairie de Lyon</a></li>
-								<li><a class="white" href="https://www.rhone.fr/">Conseil Départemental du Rhône</a></li>
-				
-							</ul>		
+									<li><a class="white" href="https://www.rhone.fr/">Conseil Départemental du Rhône</a></li>
+
+							</ul>
+						</div>
+
 					</div>
-		
 				</div>
 			</div>
 		</div>
+	</footer> -->
+	<!-- Footer - bloc-8 END-->
 	</div>
-</footer> -->
-<!-- Footer - bloc-8 END-->
-</div>
-<!-- Principal conteneur END -->
-    
+	<!-- Principal conteneur END -->
+
 
 </body>
+
 </html>
